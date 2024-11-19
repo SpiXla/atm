@@ -59,7 +59,7 @@ configure_remotes() {
         log "GitHub remote already configured."
     fi
 
-    # Check if 'mirror' (Gitea) remote is configured
+    # Check if 'mirror' (Gitea) remote is configured .
     if ! git remote get-url mirror &>/dev/null; then
         log "Gitea remote not found. Adding Gitea remote..."
         git remote add mirror "$gitea_repo"
