@@ -120,3 +120,4 @@ main "$@"
 
 
 # git remote -v
+# git remote set-url origin 
